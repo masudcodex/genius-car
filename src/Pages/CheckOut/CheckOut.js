@@ -28,7 +28,7 @@ const CheckOut = () => {
 
         //Use Field Validation
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://genius-car-server-gold.vercel.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

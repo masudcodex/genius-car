@@ -4,7 +4,7 @@ export const setAuthToken = (user) => {
     }
     //Get JWT token
     
-    fetch('http://localhost:5000/jwt',{
+    fetch('https://genius-car-server-gold.vercel.app/jwt',{
         method: 'POST',
         headers: {
             'content-type': 'application/json'
