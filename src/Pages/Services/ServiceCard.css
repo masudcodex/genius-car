@@ -1,0 +1,10 @@
+.service-card {
+    width: 364px;
+    padding: 20px;
+}
+.service-card img {
+    height: 208px;
+}
+.service-card-body{
+    padding: 20px 0 0 0;
+}
